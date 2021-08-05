@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Pacifico&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/*               header                 */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../image/home/home.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.opacit-imag{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 219, 193, 0.666);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opacit-imag1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 219, 193, 0.231);
+}
+
+
+.opacit-imag div{
+    padding: 10px;
+    text-align: center;
+}
+
+.opacit-imag div .logo-A{
+    text-transform: capitalize;
+    font-family: 'Monoton', cursive;
+    font-size: 190px;
+}
+.opacit-imag div .content-logo{
+    text-transform: capitalize;
+    font-size: 62px;
+    margin: -87px;
+    font-family: 'Roboto', sans-serif;
+}
+.opacit-imag div .description-logo{
+    margin: 76px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/*         end  header        */
+
+
+/* ---------------------- about*/
+
+
+.about{
+    width: 100%;
+    height: 750px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about-dev{
+    width: 33%;
+}
+
+
+.about-content{
+    position: relative;
+}
+
+.about-content .about-text-content{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    line-height: 35px;
+    width: 550px;
+    padding: 20px;
+    top: 10%;
+    left: 20%;
+    background-color: rgb(243, 219, 193);
+}
+
+.about-img{
+    background-image: url('../image/about/pexels-anete-lusina-4790272.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .about-content-tow{
+} */
+
+.about-tow-content-mrgen{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-content-tow-h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.about-content-tow-p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.about-content-tow-p2{
+    font-size: 20px;
+    margin: 20px 0;
+    background-color: rgb(230, 189, 142) ;
+    text-align: justify;
+    line-height: 30px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+/* ---------------------- end  about*/
+
+
+
+/*------------------------- story_about        */
+
+.story_about{
+    width: 100%;
+    height: 750px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 189, 142) ;
+}
+
+.story_div{
+    width: 50%;
+    height: 100%;
+}
+
+.story_about_image{
+    background-image: url('../image/story_about/pexels-anete-lusina-4790273.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.story_about_content-margin{
+
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.story_about_content_div{
+    position: absolute;
+    padding: 20px;
+    top: 10%;
+    left: -50%;
+    text-align: center;
+    background-color: white;
+}
+
+.story_about_content_div p{
+    font-size: 100px;
+    text-transform: capitalize;
+}
+
+.story_about_content_div2{
+    margin: 300px 0 0 0;
+}
+
+.story_about_content_div2 h1{
+    font-size: 30px;
+    margin: 20px 0 0 0;
+    text-transform: capitalize;
+}
+
+.story_about_content_div2 p{
+    
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+/*-------------------------   end  story_about        */
+
+
+/* ---------------------------- plan  */
+
+.plan-shop{
+    width: 100%;
+    height: 400px;
+    background-image: url('../image/plan/pexels-anete-lusina-4790266\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.plan-shop-content{
+    width: 80%;
+}
+
+.name-plan{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin:0 0 20px 0;
+}
+.name-plan span{
+    font-size: 40px;
+    background-color: white;
+    color: rgb(230, 189, 142) ;
+    text-transform: uppercase;   
+}
+
+.dot{
+    font-size: 30px;
+}
+
+.desc-plan{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 20px 0;
+    text-transform:lowercase
+}
+
+.btn-shop{
+    border: none;
+    margin: 15px 0;
+    padding: 10px 35px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-transform:lowercase;
+    background-color: white;
+}
+
+.btn-shop span{
+    margin: 0;
+    font-size: 25px;
+    color: rgb(147, 120, 90) ;
+    text-transform: uppercase;  
+    margin-right: -5px; 
+}
+
+/* ---------------------------- end plan  */
+
+
+/*--------------------- plan       */
+
+.plans{
+    width: 100%;
+    height: 750px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255) ;
+}
+
+.plan{
+    width: 50%;
+}
+
+.plan-imag{
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background-color: rgb(230, 189, 142);
+}
+
+.text h1{
+    font-size: 80px;
+    color: white;
+}
+
+.imag-plan{
+    width: 100%;
+    height: 80%;
+    background-image: url('../image/plan/pexels-anete-lusina-4790276.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.plan-content .plan-comtent-margin{
+    margin:0 auto;
+    width:  80%;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.plan-content-botton{
+    width: 100%;
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-content-botton-div{
+    width: 100%;
+    height: 140px;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.icon-plan{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 189, 142);   
+}
+
+.icon-plan i{
+    font-size: 50px;
+    color: white;
+}
+
+.content-plan-icon{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-plan-icon p{
+    padding: 0 0 0 20px;
+    font-size: 15px;
+}
+
+
+/*--------------------- end plan   */
+
+
+/*   ---------------- company*/
+.company{
+    width: 100%;
+    height: 700px;
+    position: 20px;
+    margin: 0;
+    background-color: rgb(230, 189, 142);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.company-text{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-text2{
+    width: 80%;
+    height: 90%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.company-text2 h1{
+    margin: 20px 0;
+    font-size: 80px;
+}
+.company-text2 p{
+    margin: 20px 0;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+
+.company-imag{
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.company1{
+    width: 100%;
+    height: 60%;
+    background-image: url('../image/company/pexels-anete-lusina-4790261.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 0 20px 0;
+}
+
+.company2{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+
+.company2 p{
+    padding: 10px;
+    font-size: 19px;
+    text-transform:capitalize;
+    line-height: 40px;
+}
+
+
+
+/*   ----------------end  company*/
+
+
+
+/*  ------------------------ footer*/
+
+
+footer{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+.footer{
+    margin: 0;
+}
+
+
+
+/*  ------------------------ end footer*/
